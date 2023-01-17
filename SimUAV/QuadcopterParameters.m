@@ -1,5 +1,5 @@
 %% Package Delivery Quadcopter Parameter Initialization
-
+addpath(genpath('model'))
 % Copyright 2021 The MathWorks, Inc.
 clear;clc;
 load('Best_Position\Best_Position.mat')
