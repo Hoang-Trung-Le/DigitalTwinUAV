@@ -23,7 +23,9 @@ crane = [40 48 0 0 0 pi;...
          70 60 0 0 0 0];
 
 building = [60 20 0];
-excavator = [50 50 0];
+excavator = [ 0  0 0;...
+             10 45 0;...
+             50 50 0];
 
 %% Package size and density
 % prcSize = [0.1 0.1 0.1];     % m
