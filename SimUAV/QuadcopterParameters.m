@@ -5,6 +5,7 @@ clear;clc;
 load('Best_Position\Best_Position.mat')
 ref = load('Reference\Reference.mat');
 rigid_terrain_params;
+truck_DataFile;
 %% Time Step
 Tsc = 1e-3;
 Ts = 1e-3;
@@ -26,8 +27,8 @@ building = [60 20 0];
 excavator = [ 0  0 0;...
              10 45 0;...
              50 50 0];
-truck = [40 80 0;...
-         100 60 0];
+truck = [40 80 0 0;...
+         100 60 0 pi/2];
 
 %% Package size and density
 % prcSize = [0.1 0.1 0.1];     % m
