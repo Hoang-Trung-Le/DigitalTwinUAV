@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/17/23||18:22:23" using="Simscape Multibody Link Version 7.4" from="SolidWorks 27.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="truck" uid="truck" version="226">
+<AssemblyFile name="truck.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="MAN5.IGS-1" uid="MAN5.IGS-1" grounded="true" entityUid="MAN5.IGS" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="M5 - Model_004_merkez_7-1.IGS-1" uid="M5 - Model_004_merkez_7-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_7-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_8-1.IGS-1" uid="M5 - Model_004_merkez_8-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_8-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-5" uid="M5 - Jant.IGS-5" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.0683380501339801 0.71955801827687504 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez-2.IGS-1" uid="M5 - Model_004_merkez-2.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez-2.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_3-1.IGS-1" uid="M5 - Model_004_merkez_3-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_3-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_11-1.IGS-1" uid="M5 - Model_004_merkez_11-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_11-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-1" uid="M5 - Lastik.IGS-1" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.0157235380684999 0.71955801827688703 1.49999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-9" uid="M5 - Jant.IGS-9" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>-1.0166619498660201 0.71955801827687005 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-4" uid="M5 - Lastik.IGS-4" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>0.75146122653894598 0.71955801827687504 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_2-1.IGS-1" uid="M5 - Model_004_merkez_2-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_2-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_4-1.IGS-1" uid="M5 - Model_004_merkez_4-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_4-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_1-1.IGS-1" uid="M5 - Model_004_merkez_1-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_1-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_6-1.IGS-1" uid="M5 - Model_004_merkez_6-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_6-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_5-1.IGS-1" uid="M5 - Model_004_merkez_5-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_5-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_merkez_9-1.IGS-1" uid="M5 - Model_004_merkez_9-1.IGS-1" grounded="true" entityUid="M5 - Model_004_merkez_9-1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.025838050133983 -0.0014048900818089999 -0.0026649625725309999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-1" uid="M5 - Jant.IGS-1" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.0157235380684999 0.71955801827688703 1.49999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-2" uid="M5 - Jant.IGS-2" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -0.56921586243488465 -0.82218811834793049 0 -0.82218811834793049 0.56921586243488465</Rotation>
+<Translation>1.0673996383364599 0.71955801827688204 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-3" uid="M5 - Jant.IGS-3" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99237450961160101 -0.12325920928325999 0 0.12325920928325999 0.99237450961160101</Rotation>
+<Translation>1.0683380501339801 0.71955801827687504 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-4" uid="M5 - Jant.IGS-4" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>0.75146122653894598 0.71955801827687504 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-6" uid="M5 - Jant.IGS-6" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>0.75146122653894598 0.71955801827687504 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-7" uid="M5 - Jant.IGS-7" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.95691779140795452 0.29035898554534589 0 -0.29035898554534589 0.95691779140795452</Rotation>
+<Translation>-0.69978512627098199 0.71955801827692201 6.4999999999999902</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-8" uid="M5 - Jant.IGS-8" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.98825704320758845 -0.15280057771682207 0 0.15280057771682207 0.98825704320758845</Rotation>
+<Translation>-0.699785126270974 0.71955801827685895 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Jant.IGS-10" uid="M5 - Jant.IGS-10" grounded="true" entityUid="M5 - Jant.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>-1.0166619498660201 0.71955801827681798 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-2" uid="M5 - Lastik.IGS-2" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -0.56921586243488465 -0.82218811834793049 0 -0.82218811834793049 0.56921586243488465</Rotation>
+<Translation>1.0673996383364599 0.71955801827688204 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-3" uid="M5 - Lastik.IGS-3" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99237450961160101 -0.12325920928325999 0 0.12325920928325999 0.99237450961160101</Rotation>
+<Translation>1.0683380501339801 0.71955801827687504 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_003_kapak_kýs versiyon.IGS-3" uid="M5 - Model_003_kapak_kýs versiyon.IGS-3" grounded="true" entityUid="M5 - Model_003_kapak_kýs versiyon.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.78779623604782301 0.71955801827687504 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_1.03.IGS-1" uid="M5 - Model_004_1.03.IGS-1" grounded="true" entityUid="M5 - Model_004_1.03.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.49600805013398402 1.32955801827689 1.49999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1^M5 - Model_004_merkez.IGS-1" uid="Part1^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="Part1^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.69600805013398304 1.32955801827688 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-8" uid="M5 - Lastik.IGS-8" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.98825704320758845 -0.15280057771682207 0 0.15280057771682207 0.98825704320758845</Rotation>
+<Translation>-0.699785126270974 0.71955801827685895 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-5" uid="M5 - Lastik.IGS-5" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.0683380501339801 0.71955801827687504 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1^M5 - Model_004_merkez.IGS-2" uid="Part1^M5 - Model_004_merkez.IGS-2" grounded="true" entityUid="Part1^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 -0.72900600050485098 0.68450730545986205 0 0.68450730545986205 0.72900600050485098 0</Rotation>
+<Translation>0.60683805013398395 1.1371074746073999 5.54469366030796</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1^M5 - Model_004_merkez.IGS-3" uid="Part1^M5 - Model_004_merkez.IGS-3" grounded="true" entityUid="Part1^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.60683805013398395 1.32955801827688 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-10" uid="M5 - Lastik.IGS-10" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>-1.0166619498660201 0.71955801827681798 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_1.03.IGS-4" uid="M5 - Model_004_1.03.IGS-4" grounded="true" entityUid="M5 - Model_004_1.03.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.44433194986607599 1.32955801827687 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_003_kapak.IGS-2" uid="M5 - Model_003_kapak.IGS-2" grounded="true" entityUid="M5 - Model_003_kapak.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.10373464784534 0.71955801827688803 1.49999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_1.03.IGS-3" uid="M5 - Model_004_1.03.IGS-3" grounded="true" entityUid="M5 - Model_004_1.03.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.406838050133984 1.3295580182768201 6.5000000000000098</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_003_kapak_kýs versiyon.IGS-1" uid="M5 - Model_003_kapak_kýs versiyon.IGS-1" grounded="true" entityUid="M5 - Model_003_kapak_kýs versiyon.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>0.83947233631578699 0.71955801827687504 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_003_kapak_kýs versiyon.IGS-2" uid="M5 - Model_003_kapak_kýs versiyon.IGS-2" grounded="true" entityUid="M5 - Model_003_kapak_kýs versiyon.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>0.83947233631578699 0.71955801827687504 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4^M5 - Model_004_merkez.IGS-1" uid="Part4^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="Part4^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>1.07583805013394 -0.0014048900818089999 -0.0026649625725419998</Translation>
+</Transform>
+</Instance>
+<Instance name="Part5^M5 - Model_004_merkez.IGS-1" uid="Part5^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="Part5^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - UV_01.IGS-1" uid="M5 - UV_01.IGS-1" grounded="true" entityUid="M5 - UV_01.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0.49600805013390997 1.0845580182768799 0.29999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.39683321625517198 1.4900701681294899 7.3371907460994299</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-7" uid="M5 - Lastik.IGS-7" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.95691779140795452 0.29035898554534589 0 -0.29035898554534589 0.95691779140795452</Rotation>
+<Translation>-0.69978512627098199 0.71955801827692201 6.4999999999999902</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_1.03.IGS-2" uid="M5 - Model_004_1.03.IGS-2" grounded="true" entityUid="M5 - Model_004_1.03.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.406838050133984 1.3295580182768201 5.1000000000000103</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-6" uid="M5 - Lastik.IGS-6" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>0.75146122653894598 0.71955801827687504 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Lastik.IGS-9" uid="M5 - Lastik.IGS-9" grounded="true" entityUid="M5 - Lastik.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>-1.0166619498660201 0.71955801827687005 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_1.03.IGS-5" uid="M5 - Model_004_1.03.IGS-5" grounded="true" entityUid="M5 - Model_004_1.03.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.35516194986605298 1.32955801827687 6.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_1.03.IGS-6" uid="M5 - Model_004_1.03.IGS-6" grounded="true" entityUid="M5 - Model_004_1.03.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.35516194986607302 1.32955801827687 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_003_kapak.IGS-1" uid="M5 - Model_003_kapak.IGS-1" grounded="true" entityUid="M5 - Model_003_kapak.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849318686593 -0.92422459273630297 0 -0.92422459273630297 -0.381849318686593</Rotation>
+<Translation>1.15541074811331 0.71955801827688204 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_Ayna_01.IGS-1" uid="M5 - Model_004_Ayna_01.IGS-1" grounded="true" entityUid="M5 - Model_004_Ayna_01.IGS*:*Default">
+<Transform>
+<Rotation>0.99931239703033325 0.0001066497973723828 0.037077240556844686 -7.3738430490000019e-06 -0.99999527168873825 0.0030751497187812712 0.037077393208205009 -0.0030733086384550239 -0.99930767118385355</Rotation>
+<Translation>1.3155155860565899 2.7921839823021601 0.38861093672555702</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3^M5 - Model_004_merkez.IGS-1" uid="Part3^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="Part3^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>1.07583805013394 -0.0014048900818089999 -0.0026649625725419998</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - MirrorModel_004_Ayna_01.IGS-1" uid="M5 - MirrorModel_004_Ayna_01.IGS-1" grounded="true" entityUid="M5 - MirrorModel_004_Ayna_01.IGS*:*Default">
+<Transform>
+<Rotation>-0.99931239703033325 -0.0001066497973723828 0.037077240556844686 -7.3738430490000019e-06 -0.99999527168873825 -0.0030751497187812712 0.037077393208205009 -0.0030733086384550239 0.99930767118385355</Rotation>
+<Translation>-1.2638394857886199 2.7921839823021601 0.38861093672555702</Translation>
+</Transform>
+</Instance>
+<Instance name="MirrorPart5^M5 - Model_004_merkez.IGS-1" uid="MirrorPart5^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="MirrorPart5^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.051676100267966998 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_004_05.1.IGS-1" uid="M5 - Model_004_05.1.IGS-1" grounded="true" entityUid="M5 - Model_004_05.1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.72583805013398295 0.71955801827688204 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - MirrorModel_004_05.1.IGS-1" uid="M5 - MirrorModel_004_05.1.IGS-1" grounded="true" entityUid="M5 - MirrorModel_004_05.1.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.67416194986601596 0.71955801827688104 1.5</Translation>
+</Transform>
+</Instance>
+<Instance name="MirrorPart3^M5 - Model_004_merkez.IGS-1" uid="MirrorPart3^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="MirrorPart3^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-1.02416194986597 -0.0014048900818089999 -0.0026649625725210001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - MirrorUV_01.IGS-1" uid="M5 - MirrorUV_01.IGS-1" grounded="true" entityUid="M5 - MirrorUV_01.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.44433194986607499 1.0845580182768699 0.29999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - Model_003_kapak_kýs versiyon.IGS-4" uid="M5 - Model_003_kapak_kýs versiyon.IGS-4" grounded="true" entityUid="M5 - Model_003_kapak_kýs versiyon.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.78779623604781501 0.71955801827687504 5.1000000000000014</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>0.39276337488441199 1.55955801827687 7.3507800108613006</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.39276337488441199 1.4870472593219699 7.3507800108613006</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.34716678374482801 0.71569498969436995 8.9429949193115803</Translation>
+</Transform>
+</Instance>
+<Instance name="MirrorPart4^M5 - Model_004_merkez.IGS-1" uid="MirrorPart4^M5 - Model_004_merkez.IGS-1" grounded="true" entityUid="MirrorPart4^M5 - Model_004_merkez.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-1.02416194986597 -0.0014048900818089999 -0.0026649625725210001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_çamurluk sacý_k4.IGS-1" uid="M5 - erp33360_çamurluk sacý_k4.IGS-1" grounded="true" entityUid="M5 - erp33360_çamurluk sacý_k4.IGS*:*Default">
+<Transform>
+<Rotation>0.99999227597493101 -0.0039303931699486427 8.4313465701669614e-08 0.00393033335203 0.99997693795857701 -0.0055385946529989214 2.1684543074e-05 0.0055385522041350001 0.99998466186700219</Rotation>
+<Translation>-3.1528435183975199 0.69731993911324697 3.0272233510948499</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_iç kayýtr.IGS-1" uid="M5 - erp33360_iç kayýtr.IGS-1" grounded="true" entityUid="M5 - erp33360_iç kayýtr.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9999846623339802 -0.0055385103408260011 0 0.0055385103408260011 0.9999846623339802</Rotation>
+<Translation>-3.0316176389330098 2.2228105643320202 2.48674865886671</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS-1" uid="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS-1" grounded="true" entityUid="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.902468103673569 -0.43075668520852001 0 -0.43075668520852001 -0.902468103673569</Rotation>
+<Translation>4.5886546709517102 -10.452359048540901 13.5808312187262</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS-1" uid="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS-1" grounded="true" entityUid="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS*:*Default">
+<Transform>
+<Rotation>0.39068425126538314 0.0060523205296707351 0.92050485345239397 0.9204851349658324 0.0067085662900053774 -0.39071999110010519 -0.008540030453145003 0.99995918144419205 -0.0029501398815355044</Rotation>
+<Translation>0.025290412210146 -0.837557426447891 10.794835084282701</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS-1" uid="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS-1" grounded="true" entityUid="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0.95319495266453336 0.30235638279166177 0 -0.30235638279166177 0.95319495266453336 0</Rotation>
+<Translation>-1.21804227943534 -352.742093168238 105.38554449418601</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_siperlik yan sacý.IGS-1" uid="M5 - erp33360_siperlik yan sacý.IGS-1" grounded="true" entityUid="M5 - erp33360_siperlik yan sacý.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0.0055385103431299975 0.99998466233396754 0 -0.99998466233396754 0.0055385103431299975 0</Rotation>
+<Translation>-1.1281619498587401 2.9150348295111002 3.2916010251802401</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_siperlik.IGS-1" uid="M5 - erp33360_siperlik.IGS-1" grounded="true" entityUid="M5 - erp33360_siperlik.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0.0055385103431299975 0.99998466233396754 0 -0.99998466233396754 0.0055385103431299975 0</Rotation>
+<Translation>-1.1281619498587401 3.1949843309294299 2.7556365975970198</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_Aynalamaiç kayýtr.IGS-1" uid="M5 - erp33360_Aynalamaiç kayýtr.IGS-1" grounded="true" entityUid="M5 - erp33360_Aynalamaiç kayýtr.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.9999846623339802 0.0055385103408260011 0 0.0055385103408260011 -0.9999846623339802</Rotation>
+<Translation>3.08329373919943 2.2228105643319802 2.4867486588663601</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_Aynalamasiperlik yan sacý.IGS-1" uid="M5 - erp33360_Aynalamasiperlik yan sacý.IGS-1" grounded="true" entityUid="M5 - erp33360_Aynalamasiperlik yan sacý.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0.0055385103431299975 0.99998466233396754 0 -0.99998466233396754 0.0055385103431299975 0</Rotation>
+<Translation>1.1798380501267101 2.9150348295113799 3.29160102518096</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_önpanel içköþe takviyesi.IGS-1" uid="M5 - erp33360_önpanel içköþe takviyesi.IGS-1" grounded="true" entityUid="M5 - erp33360_önpanel içköþe takviyesi.IGS*:*Default">
+<Transform>
+<Rotation>-0.69943966247332001 -2.0414688022725352e-12 0.71469165278405755 0.0028694553688169999 0.99999194003262826 0.0028082193053057584 -0.714685892392661 0.0040149557631840305 -0.69943402501245611</Rotation>
+<Translation>1.2511068438947299 2.57588080137397 2.8766150029394102</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS-1" uid="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS-1" grounded="true" entityUid="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS*:*Default">
+<Transform>
+<Rotation>0.69943966247332001 2.0414688022725352e-12 0.71469165278405755 0.0028694553688169999 0.99999194003262826 -0.0028082193053057584 -0.714685892392661 0.0040149557631840305 0.69943402501245611</Rotation>
+<Translation>-1.1994307436267599 2.57588080137397 2.8766150029393098</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33390_kapak npu 120lik.IGS-1" uid="M5 - erp33390_kapak npu 120lik.IGS-1" grounded="true" entityUid="M5 - erp33390_kapak npu 120lik.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.98853960566331045 0.15096174361415793 0 -0.15096174361415793 0.98853960566331045</Rotation>
+<Translation>-3.1492259021149098 1.7881217720111999 8.0173646263570006</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_kapak.IGS-1" uid="M5 - erp33360_kapak.IGS-1" grounded="true" entityUid="M5 - erp33360_kapak.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.98853960566331045 0.15096174361415793 0 -0.15096174361415793 0.98853960566331045</Rotation>
+<Translation>-3.1492259021149001 1.78721600154951 8.0114333887230291</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS-1" uid="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>1.0814086185093399 1.55955801827687 7.3507800108613006</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS*:*Default">
+<Transform>
+<Rotation>-0.953314230726381 0 0.30198009453367702 0 1 0 -0.30198009453367702 0 -0.953314230726381</Rotation>
+<Translation>-0.20436263379859201 1.4202442522597101 6.9690488512848496</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.33683321625517099 0.71569498969437195 3.3915650880202102</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.33683321625517099 0.52046852055220305 3.3521618963692599</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS-1" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.34716678374482801 0.52046852055220205 8.9823981109625404</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS-1" uid="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>1.0814086185093399 1.4870472593219699 7.3507800108613006</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Volvo_kutu_volvo p3.IGS-1" uid="mandUD-Volvo_kutu_volvo p3.IGS-1" grounded="true" entityUid="mandUD-Volvo_kutu_volvo p3.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.66631544071431104 1.57497926486985 2.9257800108612999</Translation>
+</Transform>
+</Instance>
+<Instance name="manpistonaltbaskýüstsacý_k10_1.IGS-1" uid="manpistonaltbaskýüstsacý_k10_1.IGS-1" grounded="true" entityUid="manpistonaltbaskýüstsacý_k10_1.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.48733798369039999 1.53523304590379 2.9407800108613</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Hekimhan Madencilik_1yg01.IGS-1" uid="mandUD-Hekimhan Madencilik_1yg01.IGS-1" grounded="true" entityUid="mandUD-Hekimhan Madencilik_1yg01.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.53222400506483003 3.0953268151730402 7.8970295510731807</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Volvo_kutu_volvo p1.IGS-1" uid="mandUD-Volvo_kutu_volvo p1.IGS-1" grounded="true" entityUid="mandUD-Volvo_kutu_volvo p1.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.53900441620073603 1.5363510886832901 2.7357800108613</Translation>
+</Transform>
+</Instance>
+<Instance name="mandUD-Volvo_kutu_volvo p5.IGS-1" uid="mandUD-Volvo_kutu_volvo p5.IGS-1" grounded="true" entityUid="mandUD-Volvo_kutu_volvo p5.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.53900441620073603 1.5363510886832901 2.9157800108613001</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-8" uid="M5 - erp33360_basamak.IGS-8" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.004532732890061 -0.0018840166436919991 0.99998795233434368 0.99622826618927496 -0.086644960767363666 -0.0046789335465693216 0.086652732086521994 0.99623747232018345 0.0014841721709887429</Rotation>
+<Translation>0.75737516581489905 2.8064896926034502 2.5673328895952201</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_merdiven kenar.IGS-1" uid="M5 - erp33360_merdiven kenar.IGS-1" grounded="true" entityUid="M5 - erp33360_merdiven kenar.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 -0.0055385103408260011 0.9999846623339802 0 0.9999846623339802 0.0055385103408260011 0</Rotation>
+<Translation>-1.2363746860631299 1.42263055253726 3.11497533832121</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_merdiven kenar.IGS-2" uid="M5 - erp33360_merdiven kenar.IGS-2" grounded="true" entityUid="M5 - erp33360_merdiven kenar.IGS*:*Default">
+<Transform>
+<Rotation>-0.99998795233434368 0.0049086847695026152 -1.9127928407858263e-13 0.0046789335465689981 0.9531834688904387 -0.30235638279165994 -0.0014841721709889996 -0.30235274010305191 -0.95319495266453391</Rotation>
+<Translation>1.0086438985967301 1.69509040684684 2.9224949337627999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-3" uid="M5 - erp33360_basamak.IGS-3" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.38381292185926313 0.92341087334612615 -2.2203506394591344e-13 0.9233967103785522 -0.38380703506485248 0.0055385103408254945 0.0051143206707730008 -0.0021257518368650026 -0.99998466233398053</Rotation>
+<Translation>-1.2388746860630699 2.2867121639243702 3.3767580690013501</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-5" uid="M5 - erp33360_basamak.IGS-5" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.004532732890061 -0.0018840166436919991 0.99998795233434368 0.99622826618927496 -0.086644960767363666 -0.0046789335465693216 0.086652732086521994 0.99623747232018345 0.0014841721709887429</Rotation>
+<Translation>0.75295734952235505 1.94862457060206 2.8394503556879598</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-4" uid="M5 - erp33360_basamak.IGS-4" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.38381292185926313 0.92341087334612615 -2.2203506394591344e-13 0.9233967103785522 -0.38380703506485248 0.0055385103408254945 0.0051143206707730008 -0.0021257518368650026 -0.99998466233398053</Rotation>
+<Translation>-1.2388746860630699 2.5867075626245599 3.3784196221035998</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-1" uid="M5 - erp33360_basamak.IGS-1" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.38381292185926313 0.92341087334612615 -2.2203506394591344e-13 0.9233967103785522 -0.38380703506485248 0.0055385103408254945 0.0051143206707730008 -0.0021257518368650026 -0.99998466233398053</Rotation>
+<Translation>-1.2388746860630699 1.68672136652398 3.3734349627968498</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-6" uid="M5 - erp33360_basamak.IGS-6" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.004532732890061 -0.0018840166436919991 0.99998795233434368 0.99622826618927496 -0.086644960767363666 -0.0046789335465693216 0.086652732086521994 0.99623747232018345 0.0014841721709887429</Rotation>
+<Translation>0.75442995495320297 2.23457961126919 2.74874453365705</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-7" uid="M5 - erp33360_basamak.IGS-7" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.004532732890061 -0.0018840166436919991 0.99998795233434368 0.99622826618927496 -0.086644960767363666 -0.0046789335465693216 0.086652732086521994 0.99623747232018345 0.0014841721709887429</Rotation>
+<Translation>0.75590256038405101 2.5205346519363201 2.6580387116261299</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_basamak.IGS-2" uid="M5 - erp33360_basamak.IGS-2" grounded="true" entityUid="M5 - erp33360_basamak.IGS*:*Default">
+<Transform>
+<Rotation>0.38381292185926313 0.92341087334612615 -2.2203506394591344e-13 0.9233967103785522 -0.38380703506485248 0.0055385103408254945 0.0051143206707730008 -0.0021257518368650026 -0.99998466233398053</Rotation>
+<Translation>-1.2388746860630699 1.98671676522417 3.3750965158991</Translation>
+</Transform>
+</Instance>
+<Instance name="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS-1" uid="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS-1" grounded="true" entityUid="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS*:*Default">
+<Transform>
+<Rotation>0 -1 0 0.15096174361275691 0 -0.98853960566352439 0.98853960566352439 0 0.15096174361275691</Rotation>
+<Translation>1.2938804175588801 1.02683492412402 7.8343505634019204</Translation>
+</Transform>
+</Instance>
+<Instance name="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS-1" uid="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS-1" grounded="true" entityUid="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0.95319495266455201 0.30235638279160298 0 -0.30235638279160298 0.95319495266455201 0</Rotation>
+<Translation>1.26971837976274 -352.74209316824403 105.385544494163</Translation>
+</Transform>
+</Instance>
+<Instance name="Plastik çamurluk üst kapama1.IGS-1" uid="Plastik çamurluk üst kapama1.IGS-1" grounded="true" entityUid="Plastik çamurluk üst kapama1.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.52016678374481795 1.37455801827687 6.6587800108612401</Translation>
+</Transform>
+</Instance>
+<Instance name="YAPI_plastik camurluk.IGS-1" uid="YAPI_plastik camurluk.IGS-1" grounded="true" entityUid="YAPI_plastik camurluk.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0.14891473721262199 0.98885003971325003 0 -0.98885003971325003 0.14891473721262199 0</Rotation>
+<Translation>-0.53016678374480897 -54.790092942393301 231.51645763010401</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_TABAN 8 MM ST.IGS-1" uid="M5 - erp33360_TABAN 8 MM ST.IGS-1" grounded="true" entityUid="M5 - erp33360_TABAN 8 MM ST.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.9999846623339802 0.0055385103408260011 0 0.0055385103408260011 -0.9999846623339802</Rotation>
+<Translation>2.7110125406671002 0.79479136640123005 10.334490648465</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS-1" uid="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS-1" grounded="true" entityUid="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS*:*Default">
+<Transform>
+<Rotation>0.39068425126528689 -0.0060523205289398866 -0.92050485345243938 -0.92048513496588769 0.006708566288589732 -0.3907199910999985 0.0085400304515559963 0.99995918144420604 -0.0029501398814168198</Rotation>
+<Translation>-1.4410535188234801 2.6206294550957701 10.762762390533501</Translation>
+</Transform>
+</Instance>
+<Instance name="AynalamaYAPI_plastik camurluk.IGS-2" uid="AynalamaYAPI_plastik camurluk.IGS-2" grounded="true" entityUid="AynalamaYAPI_plastik camurluk.IGS*:*Default">
+<Transform>
+<Rotation>0 0 1 0.14891473721262199 0.98885003971325003 0 -0.98885003971325003 0.14891473721262199 0</Rotation>
+<Translation>0.58183321625517603 -54.790092942393301 231.51645763010401</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_YAN 6 MM ST.IGS-1" uid="M5 - erp33360_YAN 6 MM ST.IGS-1" grounded="true" entityUid="M5 - erp33360_YAN 6 MM ST.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9999846623339802 -0.0055385103408260011 0 0.0055385103408260011 0.9999846623339802</Rotation>
+<Translation>-3.1492259021145901 1.0308857950304999 2.3393516798551999</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_ÖNPANEL 6 MM ST.IGS-1" uid="M5 - erp33360_ÖNPANEL 6 MM ST.IGS-1" grounded="true" entityUid="M5 - erp33360_ÖNPANEL 6 MM ST.IGS*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.95275342312677525 -0.30374481842528905 0 -0.30374481842528905 -0.95275342312677525</Rotation>
+<Translation>3.4828014100944298 -1.03292005268165 3.905347480597591</Translation>
+</Transform>
+</Instance>
+<Instance name="AynalamaYAPI_plastik camurluk.IGS-1" uid="AynalamaYAPI_plastik camurluk.IGS-1" grounded="true" entityUid="AynalamaYAPI_plastik camurluk.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.148914737212621 0.98885003971325003 0 0.98885003971325003 -0.148914737212621 0</Rotation>
+<Translation>-0.53016678374483395 -54.790092942393201 -219.84889760838101</Translation>
+</Transform>
+</Instance>
+<Instance name="AynalamaPlastik çamurluk üst kapama1.IGS-1" uid="AynalamaPlastik çamurluk üst kapama1.IGS-1" grounded="true" entityUid="AynalamaPlastik çamurluk üst kapama1.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.57183321625516104 1.37455801827687 6.6587800108612401</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_MirrorYAN 6 MM ST.IGS-1" uid="M5 - erp33360_MirrorYAN 6 MM ST.IGS-1" grounded="true" entityUid="M5 - erp33360_MirrorYAN 6 MM ST.IGS*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99998466233398797 -0.005538510339409 0 0.005538510339409 0.99998466233398797</Rotation>
+<Translation>-0.55517263367199698 1.0308857950155701 2.3393516798460601</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS-1" uid="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS-1" grounded="true" entityUid="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 -0.0055385103408260011 0.9999846623339802 0 0.9999846623339802 0.0055385103408260011 0</Rotation>
+<Translation>1.07583805013389 60.014161052129701 -302.54209483480599</Translation>
+</Transform>
+</Instance>
+<Instance name="AynalamaAynalamaYAPI_plastik camurluk.IGS-1" uid="AynalamaAynalamaYAPI_plastik camurluk.IGS-1" grounded="true" entityUid="AynalamaAynalamaYAPI_plastik camurluk.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.148914737212621 0.98885003971325003 0 0.98885003971325003 -0.148914737212621 0</Rotation>
+<Translation>0.58183321625515005 -54.790092942393201 -219.84889760838101</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS-1" uid="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS-1" grounded="true" entityUid="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 -0.0055385103408260011 0.9999846623339802 0 0.9999846623339802 0.0055385103408260011 0</Rotation>
+<Translation>1.0083380501386601 57.456966054332099 -197.352556095658</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS-1" uid="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS-1" grounded="true" entityUid="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS*:*Default">
+<Transform>
+<Rotation>0 1 0 0.15096174361275691 0 0.98853960566352439 0.98853960566352439 0 -0.15096174361275691</Rotation>
+<Translation>-1.24220431726625 1.02683492412929 7.8343505634008199</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="MAN5.IGS" uid="MAN5.IGS" version="225">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MAN5.IGS.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="AynalamaAynalamaYAPI_plastik camurluk.IGS" uid="AynalamaAynalamaYAPI_plastik camurluk.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AynalamaAynalamaYAPI_plastik camurluk.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2390378014394394</Mass>
+<CenterOfMass>230.33674543263911 21.973742151755175 -0.3350014672037912</CenterOfMass>
+<Inertia>0.15725700448086494 0.21875465789170095 0.16648613005711024 3.4470271305572809e-06 -6.6794687160547855e-08 -0.070353871710853291</Inertia>
+</MassProperties>
+<GeometryFile name="AynalamaAynalamaYAPI_plastik camurluk.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS" uid="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.8522963556280176</Mass>
+<CenterOfMass>0.12940829534905257 0.11315147136698413 -1.0682607170600713</CenterOfMass>
+<Inertia>0.64536065053097125 0.65124423650022878 0.080655738874428604 -0.13139941694438378 -0.0073595123344112412 0.00065206872364190996</Inertia>
+</MassProperties>
+<GeometryFile name="AynalamaM5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS" uid="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.602886577472348</Mass>
+<CenterOfMass>370.22159733367567 9.5350860589801876 -0.50200715325171819</CenterOfMass>
+<Inertia>0.20362077528501829 0.23590182324566555 0.035771062767476998 0.00020694323205493537 -0.0024220129123451693 0.00174211143764279</Inertia>
+</MassProperties>
+<GeometryFile name="AynalamaM5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AynalamaPlastik çamurluk üst kapama1.IGS" uid="AynalamaPlastik çamurluk üst kapama1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AynalamaPlastik çamurluk üst kapama1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4421493177027358</Mass>
+<CenterOfMass>0.35348977675533549 0.068243833006650156 -0.82496606596333177</CenterOfMass>
+<Inertia>0.95236045184856366 1.197820895688462 0.26122844234693693 -0.00018859947098618935 -3.9737216911267433e-05 0.0089937027799531048</Inertia>
+</MassProperties>
+<GeometryFile name="AynalamaPlastik çamurluk üst kapama1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="AynalamaYAPI_plastik camurluk.IGS" uid="AynalamaYAPI_plastik camurluk.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="AynalamaYAPI_plastik camurluk.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2390377130148296</Mass>
+<CenterOfMass>230.33674526573219 21.973742012083679 0.33500155100511425</CenterOfMass>
+<Inertia>0.1572570942919779 0.21875458474687434 0.16648615239901376 3.4242947859895196e-06 -9.6105843185437236e-07 -0.070353895817848844</Inertia>
+</MassProperties>
+<GeometryFile name="AynalamaYAPI_plastik camurluk.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Jant.IGS" uid="M5 - Jant.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Jant.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.3901509456430121</Mass>
+<CenterOfMass>-0.026802044464961511 -2.1883127218379629e-07 -2.4087164915980748e-06</CenterOfMass>
+<Inertia>0.18130417453654224 0.12879640669755596 0.12879828976193061 2.7224582843756003e-06 -1.9906013025838313e-06 -1.9700080948748252e-07</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Jant.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29215686274509806" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Lastik.IGS" uid="M5 - Lastik.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Lastik.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>20.116436111931893</Mass>
+<CenterOfMass>-7.6475391030871234e-07 5.4256223365882573e-11 -3.9538080336441075e-06</CenterOfMass>
+<Inertia>4.1290147882302222 2.3826286037843301 2.3771027032279708 -4.2909727563253871e-05 3.2993110065561307e-06 -4.5304917071576148e-11</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Lastik.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29411764705882354" g="0.29411764705882354" b="0.29411764705882354" a="1"/>
+<Diffuse r="0.29411764705882354" g="0.29411764705882354" b="0.29411764705882354" a="1"/>
+<Specular r="0.14705882352941177" g="0.14705882352941177" b="0.14705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - MirrorModel_004_05.1.IGS" uid="M5 - MirrorModel_004_05.1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - MirrorModel_004_05.1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.3108285502001014</Mass>
+<CenterOfMass>0.28296866859140518 0.25032418748654933 -0.64919821820352797</CenterOfMass>
+<Inertia>0.48812792862290416 0.24819283638540024 0.70082680108341877 -0.066286477687069412 -0.018474972263257994 -0.016240746307877061</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - MirrorModel_004_05.1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - MirrorModel_004_Ayna_01.IGS" uid="M5 - MirrorModel_004_Ayna_01.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - MirrorModel_004_Ayna_01.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.6765781467448599</Mass>
+<CenterOfMass>0.098031931503675174 0.27873556859641696 -0.041962168863896636</CenterOfMass>
+<Inertia>0.17321406351514554 0.033552192320293987 0.19769700274669863 -0.00015860417728588269 -0.0041846957476471313 -0.0010220012349482952</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - MirrorModel_004_Ayna_01.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - MirrorUV_01.IGS" uid="M5 - MirrorUV_01.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - MirrorUV_01.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>24.552754300277659</Mass>
+<CenterOfMass>0.13081839880800689 -3.5190660334903061 -0.072787490875769786</CenterOfMass>
+<Inertia>101.6147619281241 0.31485852865792635 101.79914311345209 -1.8981444872792232 0.010701896937049173 -0.0027090524104466784</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - MirrorUV_01.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_003_kapak.IGS" uid="M5 - Model_003_kapak.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_003_kapak.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.7702767594574262</Mass>
+<CenterOfMass>0.1228792066999807 0 0</CenterOfMass>
+<Inertia>0.017633610938165761 0.086033240163949018 0.086031930164924983 -4.8620238268715012e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_003_kapak.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_003_kapak_kýs versiyon.IGS" uid="M5 - Model_003_kapak_kýs versiyon.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_003_kapak_kýs versiyon.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2172935141828152</Mass>
+<CenterOfMass>0.057044810512085535 9.9206078405398738e-07 3.6766110624594209e-07</CenterOfMass>
+<Inertia>0.015946942896482588 0.035859552189194267 0.035857838266418043 -3.2068730530909833e-06 2.8843390122663243e-08 7.782818394799851e-08</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_003_kapak_kýs versiyon.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_05.1.IGS" uid="M5 - Model_004_05.1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_05.1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.3108290187458849</Mass>
+<CenterOfMass>0.28296867687961064 0.250324202199387 0.64919820877182854</CenterOfMass>
+<Inertia>0.48812796089439409 0.24819285936282975 0.70082684678086049 0.066286483648932873 0.018474990498747665 -0.016240779569543083</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_05.1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_1.03.IGS" uid="M5 - Model_004_1.03.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_1.03.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.281538130331032</Mass>
+<CenterOfMass>0.069347630351488859 -0.33827785483334949 -3.7327155240696916e-09</CenterOfMass>
+<Inertia>0.069266536915288043 0.019332989731950325 0.072549061144010621 -5.2902564097441069e-07 9.9309773258791916e-08 0.019855336464358053</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_1.03.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_Ayna_01.IGS" uid="M5 - Model_004_Ayna_01.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_Ayna_01.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.6765588293144278</Mass>
+<CenterOfMass>0.09803219266359782 0.27873545422669238 0.041962114906150254</CenterOfMass>
+<Inertia>0.17321339578381348 0.033552016024900946 0.19769615112820035 0.00015867732173811911 0.0041847142058770662 -0.0010221864578059525</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_Ayna_01.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez-2.IGS" uid="M5 - Model_004_merkez-2.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez-2.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>247.27043935571425</Mass>
+<CenterOfMass>-3.1852947943340156e-05 2.5493991951267545 0.11478184229112919</CenterOfMass>
+<Inertia>15.248946051925824 72.492466640685834 85.477418323040055 -2.8734494459667368 -0.0022396376329321707 -0.00022503392057162026</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez-2.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_1-1.IGS" uid="M5 - Model_004_merkez_1-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_1-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_1-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_11-1.IGS" uid="M5 - Model_004_merkez_11-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_11-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_11-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_2-1.IGS" uid="M5 - Model_004_merkez_2-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_2-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>400.19768420782862</Mass>
+<CenterOfMass>-4.1242415177785376e-05 2.4193439594276858 0.24205966583561478</CenterOfMass>
+<Inertia>68.790011618799085 160.15155437530015 174.10588428347052 -24.341243389530813 0.0058080846008397302 -0.0061915275458884929</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_2-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_3-1.IGS" uid="M5 - Model_004_merkez_3-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_3-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1505.7390116294137</Mass>
+<CenterOfMass>2.14367782808139e-05 2.0639036262942825 1.6440156504959322</CenterOfMass>
+<Inertia>338.37558191285098 646.12168126898189 916.95397293067003 -11.269366420656631 -0.0071760807878505266 -0.015150491713354201</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_3-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_4-1.IGS" uid="M5 - Model_004_merkez_4-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_4-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>242.19422683584122</Mass>
+<CenterOfMass>2.6868410386894204e-07 3.0669583381481229 1.5615037920230255</CenterOfMass>
+<Inertia>5.5145393812516685 92.561758547947903 90.02086359299615 0.65699193379426024 5.9633691698995895e-06 2.2221703042189897e-06</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_4-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_5-1.IGS" uid="M5 - Model_004_merkez_5-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_5-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1077.7550526368063</Mass>
+<CenterOfMass>-4.4908016193983142e-09 2.53705332966639 0.78841017884025377</CenterOfMass>
+<Inertia>105.50193887310901 428.92400686801244 395.0812731835008 -10.366478539068142 2.0073271317713748e-06 3.9847901749101577e-06</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_5-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_6-1.IGS" uid="M5 - Model_004_merkez_6-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_6-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>240.97492833306768</Mass>
+<CenterOfMass>0 2.5764028582477119 1.4590326524461952</CenterOfMass>
+<Inertia>6.993712655087184 81.284226100690702 86.359392228717013 2.3029124385409212e-06 4.9270845310873968e-07 -4.1107627509933488e-07</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_6-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_7-1.IGS" uid="M5 - Model_004_merkez_7-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_7-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_7-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_8-1.IGS" uid="M5 - Model_004_merkez_8-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_8-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>57.614754676398377</Mass>
+<CenterOfMass>-3.3646823548798372e-15 1.8816967975704777 1.172589125630294</CenterOfMass>
+<Inertia>0.31854969062447841 21.243158937027765 21.422235520059186 1.5954791039186053e-13 -5.0204752643268184e-15 2.0040709749904564e-15</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_8-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.85882352941176465" g="0.8784313725490196" b="0.94901960784313721" a="1"/>
+<Diffuse r="0.85882352941176465" g="0.8784313725490196" b="0.94901960784313721" a="1"/>
+<Specular r="0.42941176470588233" g="0.4392156862745098" b="0.47450980392156861" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - Model_004_merkez_9-1.IGS" uid="M5 - Model_004_merkez_9-1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez_9-1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - Model_004_merkez_9-1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Diffuse r="0.34901960784313724" g="0.58431372549019611" b="1" a="1"/>
+<Specular r="0.17450980392156862" g="0.29215686274509806" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - UV_01.IGS" uid="M5 - UV_01.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - UV_01.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>24.552754296989111</Mass>
+<CenterOfMass>0.1308183979086594 -3.5190660334562383 0.072787490871799407</CenterOfMass>
+<Inertia>101.61476192810724 0.3148585289082762 101.79914311369234 1.8981444872377906 -0.010701897080480275 -0.0027090128525546265</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - UV_01.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_Aynalamaiç kayýtr.IGS" uid="M5 - erp33360_Aynalamaiç kayýtr.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_Aynalamaiç kayýtr.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.188902179749148</Mass>
+<CenterOfMass>1.8927778691066905 0.84481489860684023 -2.7415981291763627</CenterOfMass>
+<Inertia>25.365987483016095 25.266702549795706 0.10501127451298203 -0.024640213086211057 0.0016946798904395716 0.0070742836965525533</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_Aynalamaiç kayýtr.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_Aynalamasiperlik yan sacý.IGS" uid="M5 - erp33360_Aynalamasiperlik yan sacý.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_Aynalamasiperlik yan sacý.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5880195382481201</Mass>
+<CenterOfMass>0.61027731614030167 0.37243526233944241 -0.0049402769149031033</CenterOfMass>
+<Inertia>0.023968482326677053 0.15289774137859186 0.17640706225752231 0.00099163824579513835 0.0037266035616596318 -0.030737082792778297</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_Aynalamasiperlik yan sacý.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS" uid="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.79615927121634944</Mass>
+<CenterOfMass>3.894739753319802 13.282776439418912 -0.014783841104739329</CenterOfMass>
+<Inertia>0.0085776861586648791 0.025444619780568802 0.032514402806191604 -0.00061890662004860872 0.0022595362432415852 0.00916351182874936</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_AynalamaÖZBEKÝSTAN kilit krosu bayrak.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_MirrorYAN 6 MM ST.IGS" uid="M5 - erp33360_MirrorYAN 6 MM ST.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_MirrorYAN 6 MM ST.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>49.153768414518609</Mass>
+<CenterOfMass>1.732026925909887 1.4655470224756364 2.9797943443151875</CenterOfMass>
+<Inertia>118.83143121951551 110.1120226933519 9.4132838419581333 2.3445810051970111 0.41284882430276132 -1.5672932896663803</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_MirrorYAN 6 MM ST.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS" uid="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.358538207297074</Mass>
+<CenterOfMass>3.2388958076417387 -3.6020119678476261 -0.076851690387158431</CenterOfMass>
+<Inertia>0.13058482708672051 0.6257249200436733 0.68931848677351082 -0.019300570460137674 0.12103347446609393 0.095335192344990216</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_MirrorÖZBEKÝSTAN Büyük Yan Kros.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_TABAN 8 MM ST.IGS" uid="M5 - erp33360_TABAN 8 MM ST.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_TABAN 8 MM ST.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>80.181113323058653</Mass>
+<CenterOfMass>2.6851744905888979 0.81144107109999686 4.804881700876356</CenterOfMass>
+<Inertia>167.61758549383816 193.10913144781435 25.969942722620175 -0.057847959376108309 -1.3148654092610031e-08 -3.026973901423233e-10</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_TABAN 8 MM ST.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_YAN 6 MM ST.IGS" uid="M5 - erp33360_YAN 6 MM ST.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_YAN 6 MM ST.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>49.153764890657598</Mass>
+<CenterOfMass>2.0240477139556683 1.465546981393105 2.9797944407279005</CenterOfMass>
+<Inertia>118.83141439828221 110.11200701250318 9.4132826835774512 2.344578066969226 -0.41284875580207098 1.5672931958289715</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_YAN 6 MM ST.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_basamak.IGS" uid="M5 - erp33360_basamak.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_basamak.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.057922112380436125</Mass>
+<CenterOfMass>0 0 0.12500000000000003</CenterOfMass>
+<Inertia>0.00030801842907093684 0.00030802002996350167 1.2691473155943216e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_basamak.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_iç kayýtr.IGS" uid="M5 - erp33360_iç kayýtr.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_iç kayýtr.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.188902537970066</Mass>
+<CenterOfMass>1.8927778734841791 0.84481490208103871 2.7415978235129828</CenterOfMass>
+<Inertia>25.365989161387731 25.266704225567061 0.10501127736497512 0.024640620304637897 -0.0016945215714888719 0.0070742785621764719</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_iç kayýtr.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_kapak.IGS" uid="M5 - erp33360_kapak.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_kapak.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>23.148628950815464</Mass>
+<CenterOfMass>3.1750639522477413 0.48690462700934395 0.0030000000000000005</CenterOfMass>
+<Inertia>4.9351907429476709 10.947490078601371 15.882541929775337 0 0 3.7717860922001067e-12</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_kapak.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_merdiven kenar.IGS" uid="M5 - erp33360_merdiven kenar.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_merdiven kenar.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.59091682689523994</Mass>
+<CenterOfMass>0.13240268318081963 0.60993985219573776 -4.7673855673720302e-07</CenterOfMass>
+<Inertia>0.11178811920361692 0.010420436482562521 0.12211895619886068 1.1001518553316961e-07 -5.2439082212789609e-08 -1.1245349658477109e-06</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_merdiven kenar.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_siperlik yan sacý.IGS" uid="M5 - erp33360_siperlik yan sacý.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_siperlik yan sacý.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5880195674725834</Mass>
+<CenterOfMass>0.61027731808175889 0.37243526302067165 0.0049402752834278429</CenterOfMass>
+<Inertia>0.023968482998826368 0.15289774307827766 0.17640706466690773 -0.00099163835601012089 -0.0037266040454895541 -0.030737082906641414</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_siperlik yan sacý.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_siperlik.IGS" uid="M5 - erp33360_siperlik.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_siperlik.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.201242672240447</Mass>
+<CenterOfMass>0.5279218663735733 0.16762614711928817 1.1539999866727932</CenterOfMass>
+<Inertia>2.6656237389590691 2.8195486182933749 0.17844557931017435 -1.4385051650117324e-09 9.5857226361089433e-09 -0.028817484387318307</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_siperlik.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_ÖNPANEL 6 MM ST.IGS" uid="M5 - erp33360_ÖNPANEL 6 MM ST.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_ÖNPANEL 6 MM ST.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>23.677514041617187</Mass>
+<CenterOfMass>3.4569633599596208 3.7230837880805474 0.0030000000000000014</CenterOfMass>
+<Inertia>5.9907119000009752 9.7772707011444471 15.767840536061176 0 0 7.6074138651517579e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_ÖNPANEL 6 MM ST.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS" uid="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.3585398395376806</Mass>
+<CenterOfMass>0.51717904139206805 -3.6020120738762111 -0.076851664433098682</CenterOfMass>
+<Inertia>0.13058479085808902 0.62572533183045942 0.68931885910411161 -0.019300545512752551 -0.12103351116418909 -0.09533494675084557</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_ÖZBEKÝSTAN Büyük Yan Kros.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS" uid="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.8984248845499314</Mass>
+<CenterOfMass>310.8814735041949 -56.823228599698353 1.0500000391819475</CenterOfMass>
+<Inertia>1.1674774272777517 1.1580908876580769 0.021932782767274769 8.5252607701661553e-09 -7.1094248865188568e-09 -0.0034675191699713296</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_ÖZBEKÝSTAN En Arka Taban Krosu.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS" uid="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.2017837252609223</Mass>
+<CenterOfMass>204.930802755977 -54.807631039877805 0.98249999999831994</CenterOfMass>
+<Inertia>2.6445618096264609 2.7898130097743605 0.15385047109851779 7.1932437970232415e-15 1.996638320827063e-08 -2.7709162433572354e-14</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_ÖZBEKÝSTAN kulak krosu.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS" uid="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.8522954378075203</Mass>
+<CenterOfMass>0.12940830246346488 0.11315143997888709 1.0682607918125526</CenterOfMass>
+<Inertia>0.64536038449450406 0.65124398202375966 0.080655701317114289 0.13139934303236894 0.0073595925951030249 0.00065204835579318302</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_ÖZBEKÝSTAN küçük yan kros.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS" uid="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.6028854605177543</Mass>
+<CenterOfMass>370.22159729636525 9.5350860450928909 0.5020073194065231</CenterOfMass>
+<Inertia>0.2036206196791728 0.23590165040254416 0.035771045333131996 -0.00020695600286894106 0.0024219702617968727 0.0017421143705073827</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_ÖZBEKÝSTAN öngöðüs kuþak krosu.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_çamurluk sacý_k4.IGS" uid="M5 - erp33360_çamurluk sacý_k4.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_çamurluk sacý_k4.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.0220325040684788</Mass>
+<CenterOfMass>2.0659743468014069 0.9957345693699966 2.1156059748101175</CenterOfMass>
+<Inertia>12.119206856784551 12.121588294138233 0.12344661573761156 0.057043807559338432 0.062216337802941286 -0.058176001600515566</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_çamurluk sacý_k4.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33360_önpanel içköþe takviyesi.IGS" uid="M5 - erp33360_önpanel içköþe takviyesi.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33360_önpanel içköþe takviyesi.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.61363054271084505</Mass>
+<CenterOfMass>0.23584183301220663 0.43148687710736838 0.011403011831229186</CenterOfMass>
+<Inertia>0.0098754098729727392 0.0041519255460094572 0.01292019602176594 -0.00086198561275277095 -0.0002004022972561455 -0.0021602734622338999</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33360_önpanel içköþe takviyesi.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erp33390_kapak npu 120lik.IGS" uid="M5 - erp33390_kapak npu 120lik.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erp33390_kapak npu 120lik.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erp33390_kapak npu 120lik.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS" uid="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.61363053746866458</Mass>
+<CenterOfMass>0.2358418335169645 0.43148687799008806 -0.011403012870135084</CenterOfMass>
+<Inertia>0.0098754097446335336 0.0041519255358702881 0.012920195839583381 0.00086198560267770159 0.00020040229139988339 -0.0021602734550783477</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - erpAynalama33360_önpanel içköþe takviyesi.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MirrorPart3^M5 - Model_004_merkez.IGS" uid="MirrorPart3^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.7927202517018187</Mass>
+<CenterOfMass>-0.33876240259663287 3.0057678555973006 -0.037197858005145128</CenterOfMass>
+<Inertia>0.0011352978304532799 0.0020974025236131177 0.002325545761475453 -8.9320687377881738e-05 6.625025364221003e-05 0.00061094025636650791</Inertia>
+</MassProperties>
+<GeometryFile name="MirrorPart3-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MirrorPart4^M5 - Model_004_merkez.IGS" uid="MirrorPart4^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1147717393565537</Mass>
+<CenterOfMass>-0.094796014000181769 1.9875862372649968 -0.019129959354933741</CenterOfMass>
+<Inertia>0.0020292577662145736 0.006039717908218941 0.0047176360579961408 -3.7188246898363642e-05 -0.0016694298249871409 4.3817207484128481e-05</Inertia>
+</MassProperties>
+<GeometryFile name="MirrorPart4-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MirrorPart5^M5 - Model_004_merkez.IGS" uid="MirrorPart5^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.9003902433514031</Mass>
+<CenterOfMass>-0.31610307870646798 2.4997289149149315 -1.2704472432794183</CenterOfMass>
+<Inertia>0.1847059139168184 0.018274992470360185 0.17755102592652189 -0.00022659783663143306 -0.0033614844363445643 0.023767087488016127</Inertia>
+</MassProperties>
+<GeometryFile name="MirrorPart5-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part1^M5 - Model_004_merkez.IGS" uid="Part1^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>18.991872810096705</Mass>
+<CenterOfMass>5.7688044292833374e-07 -0.61000115859840787 0.67016636890485837</CenterOfMass>
+<Inertia>3.1254996402203643 3.1255104517140353 0.040346660668880249 2.0602406254805265e-05 -8.7745375903449726e-06 1.4517343120981972e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Part1-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part3^M5 - Model_004_merkez.IGS" uid="Part3^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.7922701958483509</Mass>
+<CenterOfMass>-0.33877820295723116 3.0057877566120124 0.037175219681547259</CenterOfMass>
+<Inertia>0.0011339465419161238 0.002096145344199365 0.0023245470868397777 8.8653047401848634e-05 -6.5817321437426437e-05 0.00061059303044138833</Inertia>
+</MassProperties>
+<GeometryFile name="Part3-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part4^M5 - Model_004_merkez.IGS" uid="Part4^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1147653312754595</Mass>
+<CenterOfMass>-0.094795785849946232 1.9875862526632717 0.019129677716823699</CenterOfMass>
+<Inertia>0.002029275183752885 0.0060396437878361331 0.0047175624060295344 3.7193881731419331e-05 0.0016694508455142589 4.381434999969694e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Part4-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part5^M5 - Model_004_merkez.IGS" uid="Part5^M5 - Model_004_merkez.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - Model_004_merkez.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.90038985416248</Mass>
+<CenterOfMass>-0.31610236204622633 2.4997280297871005 1.2704468646144969</CenterOfMass>
+<Inertia>0.18470559386786375 0.01827515035361154 0.17755064903048282 0.00022669399522930422 0.0033615218852165681 0.023767035969382757</Inertia>
+</MassProperties>
+<GeometryFile name="Part5-M5 - Model_004_merkez.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Plastik çamurluk üst kapama1.IGS" uid="Plastik çamurluk üst kapama1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Plastik çamurluk üst kapama1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4421494593983386</Mass>
+<CenterOfMass>0.3534897844200281 0.068362612443734608 0.82503459946774949</CenterOfMass>
+<Inertia>0.95279557850908603 1.1978246577737195 0.26165982449189462 -0.00018980301636179457 -4.1332840122333121e-05 0.0088531839914769185</Inertia>
+</MassProperties>
+<GeometryFile name="Plastik çamurluk üst kapama1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="YAPI_plastik camurluk.IGS" uid="YAPI_plastik camurluk.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="YAPI_plastik camurluk.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2390378014394354</Mass>
+<CenterOfMass>230.33674543263911 21.973742151755175 -0.3350014672037912</CenterOfMass>
+<Inertia>0.15725700448086471 0.21875465789170107 0.16648613005711058 3.4470271305369517e-06 -6.6794687160547935e-08 -0.070353871710853721</Inertia>
+</MassProperties>
+<GeometryFile name="YAPI_plastik camurluk.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_1yg01.IGS" uid="mandUD-Hekimhan Madencilik_1yg01.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_1yg01.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.6090287366758758</Mass>
+<CenterOfMass>5.2226812276548973 -1.4562268108565379 1.0678505690190496</CenterOfMass>
+<Inertia>0.077182376834191713 0.13631314576405723 0.062212526627665014 -5.7218799338704914e-05 -0.0015518006551718806 -8.9725216459543011e-05</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_1yg01.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0.37450980392156863" g="0.37450980392156863" b="0.37450980392156863" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS" uid="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>14.363792816480226</Mass>
+<CenterOfMass>1.4413137954492752 -0.034807076986320497 2.7135387332123337</CenterOfMass>
+<Inertia>31.357450478783786 31.28554316367175 0.12603552866478346 -0.04193120936881737 -0.6527009388132482 -0.00036377605292144707</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028U þase.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS" uid="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.8273473080178109</Mass>
+<CenterOfMass>1.3984844644637555 2.7481649466463565 0.10440133105857097</CenterOfMass>
+<Inertia>14.351967611176907 0.043035126738899192 14.338217501035773 -0.0012779490799360589 -2.1553385320211039e-05 -0.37741007316350661</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_Mirrorergünler_3028þase u kapama.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>14.363788624994191</Mass>
+<CenterOfMass>-0.018808212759786863 -0.034807064018143645 2.7135386431049047</CenterOfMass>
+<Inertia>31.357432885876115 31.285525569397628 0.12603551270398952 -0.04193004945712947 0.652700960778126 0.00036373907548702328</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028U þase.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.9500590114951364</Mass>
+<CenterOfMass>0.14638697917779447 -0.028808194189161505 -0.37096139029243053</CenterOfMass>
+<Inertia>0.094990812183025325 0.11720221538396801 0.033582001152905376 8.1118794478398025e-06 1.0056457646689853e-05 -0.010623437495176984</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028arka kapama sacý.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.3814784878741535</Mass>
+<CenterOfMass>1.9306879935333703 0.7146258430016269 0.37431155242848885</CenterOfMass>
+<Inertia>0.069842760199552031 0.064162460710733907 0.0072733125854679021 0.00013755107316908003 -3.4476691165306493e-05 0.0010467606603661</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4826863811251145</Mass>
+<CenterOfMass>2.0293957315223929 0.93118302747877024 0.37432000376905172</CenterOfMass>
+<Inertia>0.076524676399669714 0.069111645668711141 0.0097076401386774931 0.00019121755122071966 -6.9107475220062047e-05 0.002295334898219409</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik2.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.158454228537602</Mass>
+<CenterOfMass>1.9307964694274997 0.71419128367575813 0.31099999999999933</CenterOfMass>
+<Inertia>0.042787328397185354 0.038018082156711659 0.0061075907418905164 1.1460150124442411e-10 3.3237751458990897e-10 0.00088229177823896611</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik3.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2437787653505417</Mass>
+<CenterOfMass>2.0296181072974235 0.93058949772029986 0.31099999999999978</CenterOfMass>
+<Inertia>0.04730908127112135 0.041069867272015101 0.0081793186662462193 0 0 0.0019407690180476783</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028sasidik4.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.827347307900153</Mass>
+<CenterOfMass>0.024021096419585518 2.7481649466685925 0.10440133108209158</CenterOfMass>
+<Inertia>14.351967611173102 0.043035128004118815 14.338217499766433 -0.0012779906728347652 2.1553414627157124e-05 0.37741007315453878</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028þase u kapama.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="1" a="1"/>
+<Diffuse r="1" g="0" b="1" a="1"/>
+<Specular r="0.5" g="0" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS" uid="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.5511351521835919</Mass>
+<CenterOfMass>0.023781810340764341 -0.0036862346303630903 0.83349854225212339</CenterOfMass>
+<Inertia>0.80444933511754513 0.80131354128266896 0.010195508380527523 2.1111559857377468e-12 0.0011232101526570146 -4.1932355431420739e-13</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Hekimhan Madencilik_ergünler_3028þasi çapraz profil.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93333333333333335" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Volvo_kutu_volvo p1.IGS" uid="mandUD-Volvo_kutu_volvo p1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Volvo_kutu_volvo p1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.337873599780028</Mass>
+<CenterOfMass>0.51317119994398908 -0.017064979968255643 0.0049999999998834536</CenterOfMass>
+<Inertia>0.0047254557074703253 0.096109638075843731 0.1008127958899412 1.0020052350161101e-15 0 2.3321111782120281e-13</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Volvo_kutu_volvo p1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29215686274509806" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Volvo_kutu_volvo p3.IGS" uid="mandUD-Volvo_kutu_volvo p3.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Volvo_kutu_volvo p3.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5112667863377316</Mass>
+<CenterOfMass>0.6404822244547177 -0.13508064654910609 0.10565505248122263</CenterOfMass>
+<Inertia>0.0090575926823424444 0.094235093958143501 0.092186173242719396 8.4483700032321672e-05 3.0471064535969366e-13 7.2160638673645244e-13</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Volvo_kutu_volvo p3.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29215686274509806" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mandUD-Volvo_kutu_volvo p5.IGS" uid="mandUD-Volvo_kutu_volvo p5.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mandUD-Volvo_kutu_volvo p5.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2853226889889211</Mass>
+<CenterOfMass>0.51317119994341931 -0.014550708594273338 0.0049999999999140021</CenterOfMass>
+<Inertia>0.0043444428352252713 0.087362463126321885 0.091685483916699992 3.2020194599152203e-15 0 1.8893151172056897e-13</Inertia>
+</MassProperties>
+<GeometryFile name="mandUD-Volvo_kutu_volvo p5.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58431372549019611" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29215686274509806" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="manpistonaltbaskýüstsacý_k10_1.IGS" uid="manpistonaltbaskýüstsacý_k10_1.IGS*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="manpistonaltbaskýüstsacý_k10_1.IGS.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.1603773814287699</Mass>
+<CenterOfMass>-0.51317119996734961 0.075538188991786034 0.12000000000000001</CenterOfMass>
+<Inertia>0.010532561527388263 0.15434285470067038 0.14413579415515793 0 -2.1147342198507537e-14 1.7653875224834563e-13</Inertia>
+</MassProperties>
+<GeometryFile name="manpistonaltbaskýüstsacý_k10_1.IGS_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.92941176470588238" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
