@@ -1,11 +1,11 @@
 %% Package Delivery Quadcopter Parameter Initialization
-addpath(genpath('model'))
+
 % Copyright 2021 The MathWorks, Inc.
 clear;clc;
 load('Best_Position\Best_Position.mat')
 ref = load('Reference\Reference.mat');
 rigid_terrain_params;
-truck_DataFile;
+
 %% Time Step
 Tsc = 1e-3;
 Ts = 1e-3;
@@ -26,9 +26,12 @@ crane = [40 48 0 0 0 pi;...
 building = [60 20 0];
 excavator = [ 0  0 0;...
              10 45 0;...
-             50 50 0];
-truck = [40 80 0 0;...
-         100 60 0 pi/2];
+             50 65 0];
+truck = [40 80 0.02 0;...
+         100 60 0.02 pi/2];
+trajColor = [0 0 0;...
+             1 0 0;...
+             0 0 1;];
 
 %% Package size and density
 % prcSize = [0.1 0.1 0.1];     % m
