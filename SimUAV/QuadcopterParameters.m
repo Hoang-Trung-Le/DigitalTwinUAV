@@ -26,15 +26,13 @@ crane = [40 48 0 0 0 pi;...
 building = [60 20 0];
 excavator = [ 0  0 0;...
              10 45 0;...
-<<<<<<< HEAD
              50 65 0];
-truck = [40 80 0.02 0;...
-         100 60 0.02 pi/2];
-=======
-             50 50 0];
+% truck = [40 80 0.02 0;...
+%          100 60 0.02 pi/2;...];
+%           50 50 0 0];
 truck = [40 80 0 0;...
          100 60 0 pi/2];
->>>>>>> 7592fb6769f6e4a2b75177249cd5df0ab9935201
+
 trajColor = [0 0 0;...
              1 0 0;...
              0 0 1;];
@@ -112,13 +110,13 @@ uav(1).timeStamp = zeros(length(uav(1).traj),1);
 uav(2).timeStamp = zeros(length(uav(2).traj),1);
 uav(3).timeStamp = zeros(length(uav(3).traj),1);
 
-for k = 1:3
-   for i = 1:1:(length(uav(1).traj)-1)
-      dTraj(:,i,k) = uav(k).traj(:,i) - uav(k).traj(:,i+1);
-      tTraj(:,i,k) = abs(dTraj(:,i,k))/V_nom;
-      uav(k).timeStamp(i,1) = max(tTraj(:,i,k));
-   end
-end
+% for k = 1:3
+%    for i = 1:1:(length(uav(1).traj)-1)
+%       dTraj(:,i,k) = uav(k).traj(:,i) - uav(k).traj(:,i+1);
+%       tTraj(:,i,k) = abs(dTraj(:,i,k))/V_nom;
+%       uav(k).timeStamp(i,1) = max(tTraj(:,i,k));
+%    end
+% end
 
 
 % for k = 1:1:2
