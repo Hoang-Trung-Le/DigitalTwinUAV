@@ -1,0 +1,661 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 01/21/01 by Administrator
+' ******************************************************************************
+
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long
+Dim Annotation As Object
+Dim Gtol As Object
+Dim DatumTag As Object
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+Set swApp = CreateObject ("SldWorks.Application")
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\Standing 5w.SLDASM", 2, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("Standing 5w.SLDASM")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ShowNamedView2 "*Front", 1
+Part.ActiveView.HlrQuality = 0
+Part.Save2 FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.SelectByID "left leg joint 1 5w-1@Standing 5w", "COMPONENT", 0, 0, 0
+Part.TranslateComponent
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.1688318757513, -0.003942549182966, -0.7242374704125
+Part.SelectByID "right leg joint 1 5w-1@Standing 5w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.2211381485907, -0.1688441566225, -0.7971815037426
+Part.SelectByID "left shoulder joint 1 5w-1@Standing 5w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right shoulder joint 1 5w-1@Standing 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Standing 5w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\5 percentile\Walking 5w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.SelectByID "left leg joint 1 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.TranslateComponent
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.2553367535538, -0.008637465281993, -0.6594218669065
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.3406881470187, 0.01231491158273, -0.8614201647735
+Part.SelectByID "right leg joint 1 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "Point1@Origin@right foot 5w-1@Walking 5w", "EXTSKETCHPOINT", 0, 0, 0
+Part.SelectByID "right shoulder joint 1 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right elbow joint 1 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "right upper arm 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 5w-1@Walking 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Walking 5w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\5 percentile\Running 5w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.3915753247099, -0.01093839793987, -0.4246065934947
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.3434467746605, 0.006924339560953, -0.6812921937581
+Part.SelectByID "right leg joint 1 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4477252997675, -0.1693103889863, -0.4192589768225
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4343562580872, -0.1838663192717, -0.7080302771189
+Part.ShowNamedView2 "*Top", 5
+Part.ShowNamedView2 "*Front", 1
+Part.ShowNamedView2 "*Left", 3
+Part.SelectByID "right elbow joint 1 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.ShowNamedView2 "*Isometric", 7
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Front", 1
+Part.SelectByID "left lower arm 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.ViewZoomTo2 -0.330792, -0.0388786, -0.0557845, -0.0263406, -0.330093, -0.0557845
+Part.SelectByID "left hand joint 1 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left hand 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left hand joint 1 5w-1@Running 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewZoomTo2 -0.232844, -0.0982558, 0.0199522, 0.0712734, -0.326344, 0.0199522
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Running 5w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\5 percentile\Sitting 5w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Top", 5
+Part.ShowNamedView2 "*Left", 3
+Part.SelectByID "pelvis 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.UnfixComponent
+Part.ClearSelection
+Part.SelectByID "Axis1", "AXIS", 0, 0, 0
+Part.AndSelectByID "pelvis 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.RotateComponentAxis
+Part.SelectByID "pelvis 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.FixComponent
+Part.ClearSelection
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4366878608254, -0.01674080203367, -0.4051025310802
+Part.SelectByID "right leg joint 1 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4565433758458, -0.1732940927311, -0.4514320661277
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.8117364778768, 0.01148902403656, -0.3852470160598
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.07293702469739, -0.1578225423054, -0.03005391402876
+Part.SelectByID "right shoulder joint 1 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.ShowNamedView2 "*Right", 4
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left hand 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left elbow joint 1 5w-1@Sitting 5w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Sitting 5w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\5 percentile\Driving 5w.SLDASM", 0, FALSE, FALSE
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "Driving 5w.SLDASM"
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\50 percentile\Standing 50w.SLDASM", 2, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("Standing 50w.SLDASM")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ShowNamedView2 "*Front", 1
+Part.ActiveView.HlrQuality = 0
+Part.ViewDisplayHiddenremoved
+Part.Save2 FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 50w-1@Standing 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.1934553556658, 0.03343862238091, -0.7570166096673
+Part.SelectByID "right leg joint 1 50w-1@Standing 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.2054562281815, -0.1359525818161, -0.8235018736418
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.2254018073738, -0.1736278090274, -1.012984875969
+Part.SelectByID "right shoulder joint 1 50w-1@Standing 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right elbow joint 1 50w-1@Standing 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 50w-1@Standing 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 50w-1@Standing 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Standing 50w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\50 percentile\Walking 50w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.3080628365401, 0.02797631608706, -0.6477404623101
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.3244737898685, 0.04706208646815, -0.8578006649133
+Part.SelectByID "right leg joint 1 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.5518711178665, -0.1609641670294, -0.8052856142625
+Part.SelectByID "right shoulder joint 1 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right elbow joint 1 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "right upper arm 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 50w-1@Walking 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Walking 50w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\50 percentile\Running 50w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "pelvis 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.UnfixComponent
+Part.ClearSelection
+Part.SelectByID "Axis1", "AXIS", 0, 0, 0
+Part.AndSelectByID "pelvis 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.RotateComponentAxis
+Part.SelectByID "pelvis 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.FixComponent
+Part.ClearSelection
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4765573603828, 0.02407482770599, -0.4172399373469
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4379352615219, 0.03312336043109, -0.7036871705649
+Part.SelectByID "right leg joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.5731126075349, -0.1526665505099, -0.3753993302476
+Part.ShowNamedView2 "*Top", 5
+Part.ShowNamedView2 "*Front", 1
+Part.ShowNamedView2 "*Left", 3
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.0240862345605, -0.1439988783742, 0.0701781318059
+Part.SelectByID "right elbow joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewZoomTo2 -0.452124, -0.0933233, 0.0620813, -0.238221, -0.330261, 0.0620813
+Part.SelectByID "right hand joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ViewZoomTo2 -0.428026, -0.254156, 0.0620813, -0.408906, -0.263904, 0.0620813
+Part.ViewZoomtofit2
+Part.ViewZoomTo2 -0.442251, -0.0373795, 0.0620813, -0.185568, -0.350006, 0.0620813
+Part.ViewZoomtofit2
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Front", 1
+Part.SelectByID "left lower arm 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 50w-1@Running 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Running 50w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\50 percentile\Sitting 50w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.SelectByID "pelvis 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.UnfixComponent
+Part.ClearSelection
+Part.SelectByID "Axis1", "AXIS", 0, 0, 0
+Part.AndSelectByID "pelvis 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.RotateComponentAxis
+Part.SelectByID "pelvis 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.FixComponent
+Part.ClearSelection
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4744191062687, 0.01941274879721, -0.4050900353778
+Part.SelectByID "right leg joint 1 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.5512226941481, -0.146326805734, -0.4395192299445
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.05526081014148, -0.13422223521, 0.02659909649646
+Part.SelectByID "right shoulder joint 1 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Back", 2
+Part.ShowNamedView2 "*Left", 3
+Part.ShowNamedView2 "*Right", 4
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left elbow joint 1 50w-1@Sitting 50w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Sitting 50w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\50 percentile\Driving 50w.SLDASM", 0, FALSE, FALSE
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "Driving 50w.SLDASM"
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\95 percentile\Standing 95w.SLDASM", 2, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("Standing 95w.SLDASM")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ActiveView.HlrQuality = 0
+Part.Save2 FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 95w-1@Standing 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.2163395298247, 0.01226148331614, -0.8023393972566
+Part.SelectByID "right leg joint 1 95w-1@Standing 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.1201875903799, -0.1072589871735, -0.8275003034401
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.2837334805728, -0.1015925000656, -1.047658232546
+Part.SelectByID "right shoulder joint 1 95w-1@Standing 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right elbow joint 1 95w-1@Standing 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 95w-1@Standing 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 95w-1@Standing 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.02115339462111, 0.1180185311946, 0.04029128922804
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+Part.SetPickMode
+Part.ClearSelection
+' MSGBOX
+' Standing 95w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\95 percentile\Walking 95w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Front", 1
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "right leg joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left leg joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.368450914659, 0.01520627562962, -0.638669980285
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.3131665304997, 0.02116905032352, -0.9427340931613
+Part.ClearSelection
+Part.SelectByID "", "FACE", -0.4884570398106, -0.104379320988, -0.9427340931613
+Part.SelectByID "right leg joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right shoulder joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right elbow joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "right upper arm 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 95w-1@Walking 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ShowNamedView2 "*Left", 3
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Walking 95w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\95 percentile\Running 95w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.TranslateComponent
+Part.SelectByID "left leg joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.5171222578524, 0.01598398856822, -0.5153198325551
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.4837134027443, 0.01990264377997, -0.7674048301887
+Part.SelectByID "right leg joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.5626797875452, -0.1079853342649, -0.4150932672309
+Part.SelectByID "right elbow joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "right shoulder joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Front", 1
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left shoulder joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.SelectByID "left elbow joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Front", 1
+Part.SelectByID "left lower arm 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left elbow joint 1 95w-1@Running 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Running 95w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\95 percentile\Sitting 95w.SLDASM", 0, FALSE, FALSE
+Part.ViewDisplayShaded
+Part.ShowNamedView2 "*Left", 3
+Part.SelectByID "pelvis 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.UnfixComponent
+Part.ClearSelection
+Part.SelectByID "Axis1", "AXIS", 0, 0, 0
+Part.AndSelectByID "pelvis 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.RotateComponentAxis
+Part.SelectByID "pelvis 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.FixComponent
+Part.ClearSelection
+Part.TranslateComponent
+Part.SelectByID "", "FACE", -0.04119863910428, -0.1157638857296, 0.03128076759294
+Part.SelectByID "left leg joint 1 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.5505204319168, 0.01546600519907, -0.4435862179744
+Part.SelectByID "right leg joint 1 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.ClearSelection
+Part.SelectByID "", "FACE", 0.5803550069263, -0.1059365987384, -0.436127574222
+Part.SelectByID "right shoulder joint 1 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Top", 5
+Part.SelectByID "left upper arm 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Right", 4
+Part.SelectByID "left elbow joint 1 95w-1@Sitting 95w", "COMPONENT", 0, 0, 0
+Part.ShowNamedView2 "*Isometric", 7
+Part.ViewDisplayHiddenremoved
+' MSGBOX
+' Sitting 95w has not been rebuilt successfully since the last feature change or an externally referenced model has changed.
+' 	It is safest to rebuild before saving.
+' 		Rebuild now?
+
+Part.SaveAs2 "H:\BodyWorks F\Woman 2000\95 percentile\Driving 95w.SLDASM", 0, FALSE, FALSE
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "Driving 95w.SLDASM"
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\torso 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("torso 5w.sldprt")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ActiveView.HlrQuality = 0
+Part.Save2 FALSE
+Set Part = Nothing
+swApp.CloseDoc "torso 5w.sldprt"
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\Driving 5w.SLDASM", 2, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.SelectByID "pelvis 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\pelvis 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("pelvis 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "pelvis 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "waist joint 1 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\waist joint 1 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("waist joint 1 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "waist joint 1 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "waist joint 2 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\waist joint 2 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("waist joint 2 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "waist joint 2 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "torso 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\torso 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("torso 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "torso 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "neck joint 1 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\neck joint 1 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("neck joint 1 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "neck joint 1 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "neck 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\neck 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("neck 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "neck 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "head joint 1 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\head joint 1 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("head joint 1 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "head joint 1 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "head 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\head 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("head 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "head 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "left upper arm 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\left upper arm 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("left upper arm 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "left upper arm 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "left elbow joint 1 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\left elbow joint 1 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("left elbow joint 1 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "left elbow joint 1 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "left lower arm 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\left lower arm 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("left lower arm 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "left lower arm 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "right upper arm 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\right upper arm 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("right upper arm 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "right upper arm 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Part.SelectByID "right upper leg 5w-1@Driving 5w", "COMPONENT", 0, 0, 0
+Part.OpenCompFile
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\5 percentile\right upper leg 5w.sldprt", 1, 0, 0, 0, 0, longstatus)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("right upper leg 5w.sldprt")
+Part.ClearSelection
+Set Part = Nothing
+swApp.CloseDoc "right upper leg 5w.sldprt"
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc ("Driving 5w.SLDASM")
+Set Part = Nothing
+swApp.CloseDoc "Driving 5w.SLDASM"
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\50 percentile\torso 50w.sldprt", 1, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("torso 50w.sldprt")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = Nothing
+swApp.CloseDoc "torso 50w.sldprt"
+Set Part = swApp.OpenDoc3 ("H:\BodyWorks F\Woman 2000\95 percentile\torso 95w.sldprt", 1, 0, 0, 0, 0, longstatus)
+Set Part = swApp.ActivateDoc ("torso 95w.sldprt")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = Nothing
+swApp.CloseDoc "torso 95w.sldprt"
+swApp.ExitApp
+End Sub
