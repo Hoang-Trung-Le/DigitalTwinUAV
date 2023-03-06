@@ -23,8 +23,8 @@ z = terrain_points_new(:,3);
 
 xg1 = linspace(min(x), max(x), 100); % x-grid vector
 yg1 = linspace(min(y), max(y), 100); % y-grid vector
-xg = linspace(-max(x), max(x)*3, 200);
-yg = linspace(-max(y), max(y)*3, 200);
+xg = linspace(-5*max(x), max(x)*5, 200);
+yg = linspace(-5*max(y), max(y)*5, 200);
 % Create an interpolant that fits a surface of the form z = F(x,y)  
 F = scatteredInterpolant(x,y,z);
 z_heights = F({xg1,yg1}); %  Using this syntax to conserve memory when querying a large grid of points.
