@@ -68,6 +68,9 @@ uav(2).start = uav(2).traj(:,1);                        % m
 uav(3).start = uav(3).traj(:,1);                        % m
 
 uav(1).wps = uav(1).traj(:,2:end);                        % m
+uav(1).wps = [18.5 20 25 30 40 50 62 72 85;...
+              42.5 45 45 45 45 45 45 45 45;...
+              20*ones(1,9)];
 uav(2).wps = uav(2).traj(:,2:end);                        % m
 uav(3).wps = uav(3).traj(:,2:end);
 
