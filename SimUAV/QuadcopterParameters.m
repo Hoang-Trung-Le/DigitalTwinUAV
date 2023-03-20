@@ -51,8 +51,8 @@ m = 1.5; %kg
 Ixx = 8.85*10^-3; %kg.m2
 Iyy = 15.5*10^-3; %kg.m2
 Izz = 23.09*10^-3; %kg.m2
-SoloCAD_DataFile;
-
+SoloCAD_DataFile1;
+Airport_DataFile;
 %% Initial Position and Orientation of the Quadcopter
 %  Position
 % xStart = -5;                        % m
