@@ -1944,7 +1944,11 @@ smiData.RigidTransform(275).ID = "SixDofRigidTransform[Part5-1]";
 
 %Translation Method - Cartesian
 %Rotation Method - Arbitrary Axis
+<<<<<<< HEAD
 smiData.RigidTransform(276).translation = [0 0 0.14999999999999999] + [0 0 0.05];  % m
+=======
+smiData.RigidTransform(276).translation = [0 0 0.14999999999999999];  % m
+>>>>>>> 95347c482ac90d95d980584091ab94aca7f9a3fd
 smiData.RigidTransform(276).angle = 0;  % rad
 smiData.RigidTransform(276).axis = [0 0 0];
 smiData.RigidTransform(276).ID = "SixDofRigidTransform[Part1-1]";
