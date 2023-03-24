@@ -51,8 +51,10 @@ m = 1.5; %kg
 Ixx = 8.85*10^-3; %kg.m2
 Iyy = 15.5*10^-3; %kg.m2
 Izz = 23.09*10^-3; %kg.m2
-SoloCAD_DataFile;
 
+% SoloCAD_DataFile;
+SoloCAD_DataFile1;
+Airport_DataFile;
 %% Initial Position and Orientation of the Quadcopter
 %  Position
 % xStart = -5;                        % m
@@ -62,12 +64,18 @@ SoloCAD_DataFile;
 uav(1).traj = Best_Position_1;
 uav(2).traj = Best_Position_2;
 uav(3).traj = Best_Position_3;
+uav(1).traj(3,:) = uav(1).traj(3,:) + 15;
+uav(2).traj(3,:) = uav(2).traj(3,:) + 15;
+uav(3).traj(3,:) = uav(3).traj(3,:) + 15;
 
 uav(1).start = uav(1).traj(:,1);                        % m
 uav(2).start = uav(2).traj(:,1);                        % m
 uav(3).start = uav(3).traj(:,1);                        % m
 
 uav(1).wps = uav(1).traj(:,2:end);                        % m
+% uav(1).wps = [18.5 20 25 30 40 50 62 72 85;...
+%               42.5 45 45 45 45 45 45 45 45;...
+%               20*ones(1,9)];
 uav(2).wps = uav(2).traj(:,2:end);                        % m
 uav(3).wps = uav(3).traj(:,2:end);
 
