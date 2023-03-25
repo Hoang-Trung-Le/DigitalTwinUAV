@@ -2,6 +2,7 @@
 
 % Copyright 2021 The MathWorks, Inc.
 clear;clc;
+addpath(genpath('Support'));
 load('Best_Position\Best_Position.mat')
 ref = load('Reference\Reference.mat');
 rigid_terrain_params;
@@ -51,12 +52,9 @@ m = 1.5; %kg
 Ixx = 8.85*10^-3; %kg.m2
 Iyy = 15.5*10^-3; %kg.m2
 Izz = 23.09*10^-3; %kg.m2
-<<<<<<< HEAD
 
 % SoloCAD_DataFile;
-=======
->>>>>>> 95347c482ac90d95d980584091ab94aca7f9a3fd
-SoloCAD_DataFile1;
+SoloCAD_DataFile;
 Airport_DataFile;
 %% Initial Position and Orientation of the Quadcopter
 %  Position
@@ -76,15 +74,14 @@ uav(2).start = uav(2).traj(:,1);                        % m
 uav(3).start = uav(3).traj(:,1);                        % m
 
 uav(1).wps = uav(1).traj(:,2:end);                        % m
-<<<<<<< HEAD
+
 % uav(1).wps = [18.5 20 25 30 40 50 62 72 85;...
 %               42.5 45 45 45 45 45 45 45 45;...
 %               20*ones(1,9)];
-=======
+
 uav(1).wps = [18.5 20 25 30 40 50 62 72 85;...
               42.5 45 45 45 45 45 45 45 45;...
               20*ones(1,9)];
->>>>>>> 95347c482ac90d95d980584091ab94aca7f9a3fd
 uav(2).wps = uav(2).traj(:,2:end);                        % m
 uav(3).wps = uav(3).traj(:,2:end);
 
