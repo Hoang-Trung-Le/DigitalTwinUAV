@@ -70,12 +70,12 @@ uav(1).traj(3,5) = uav(1).traj(3,5) + 4;
 uav(1).traj(3,6) = uav(1).traj(3,6) + 8;
 uav(1).traj(3,7:end) = uav(1).traj(3,7:end) + 12;
 
-uav(2).traj(3,5) = uav(2).traj(3,5) + 4;
-uav(2).traj(3,6) = uav(2).traj(3,6) + 8;
+uav(2).traj(3,5) = uav(1).traj(3,5) + 4;
+uav(2).traj(3,6) = uav(1).traj(3,6) + 8;
 uav(2).traj(3,7:end) = uav(2).traj(3,7:end) + 12;
 
-uav(3).traj(3,5) = uav(3).traj(3,5) + 4;
-uav(3).traj(3,6) = uav(3).traj(3,6) + 8;
+uav(1).traj(3,5) = uav(1).traj(3,5) + 4;
+uav(1).traj(3,6) = uav(1).traj(3,6) + 8;
 uav(3).traj(3,7:end) = uav(3).traj(3,7:end) + 12;
 
 uav(1).start = uav(1).traj(:,1);                        % m
