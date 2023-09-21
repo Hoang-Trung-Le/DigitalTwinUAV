@@ -1,0 +1,46 @@
+Log for creating 3D model tile(s) for  AUSTRALIA_5M_DEM_151.13_-33.91 
+ 
+DEM_name = AU/GA/AUSTRALIA_5M_DEM 
+trlat = -33.911769400048236 
+trlon = 151.13643374416964 
+bllat = -33.916515012691455 
+bllon = 151.12878766033785 
+printres = 0.4 
+ntilesx = 1 
+ntilesy = 1 
+tilewidth = 100.0 
+basethick = 1 
+zscale = 1.0 
+fileformat = STLb 
+no_bottom = False 
+unprojected = False 
+no_normals = True 
+
+process started: 09:32:36.577973 
+
+Region (lat/lon):
+   -33.911769400048236 151.13643374416964 (top right)
+   -33.916515012691455 151.12878766033785 (bottom left) 
+center at [151.13261070225374, -33.914142206369846]  UTM 56 S ,  EPSG:32756 
+lon/lat size in degrees: [0.007646083831787109, 0.004745612643219488] 
+Earth Engine raster: AU/GA/AUSTRALIA_5M_DEM 
+ Australian 5M DEM 
+URL for geotiff is:  https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/7e3c77550e75f182b76b4a29521152a6-32304507471fb00e0e4506e36e8b3d96:getPixels 
+ geotiff size: 0.16471290588378906 Mb 
+ cell size 2.828365854208296 m, upper left corner (x/y):  327007.17496600054 6246064.159628703 
+full (untiled) raster (height,width)  (191, 254) float64 elev. min/max: 0.6355265378952026 26.57355499267578 
+cell size: 2.828365854208296 m  
+adjusted print res from the requested 0.4 mm to 0.3937007874015748 mm to ensure correct model dimensions 
+total model size in mm: 100.0 x 75.19685039370079 
+map scale is 1 : 7184.0492696890715 
+Cells per tile (x/y) 254 x 191 
+using single-core only (multi-core is currently broken :( 
+
+1 x 1 tiles, tile size 100.00 x 75.20 mm
+ 
+tile 1 1 : height:  0.6355265378952026 - 4.610502584415485 mm , file size: 5 Mb 
+
+total size for all tiles: 5 Mb 
+added full geotiff as AUSTRALIA_5M_DEM_151.13_-33.91.tif 
+
+processing finished: 09:32:41.130151 

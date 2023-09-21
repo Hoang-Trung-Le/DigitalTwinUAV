@@ -3,9 +3,10 @@
 % Copyright 2021 The MathWorks, Inc.
 clear;clc;
 addpath(genpath('./Support'));
+addpath(genpath('./images'));
 load('Best_Position\Best_Position.mat')
 % ref = load('Reference\Reference.mat');
-% rigid_terrain_params;
+park_rigid_terrain_params;
 
 %% Time Step
 Tsc = 1e-3;
@@ -53,46 +54,42 @@ Ixx = 8.85*10^-3; %kg.m2
 Iyy = 15.5*10^-3; %kg.m2
 Izz = 23.09*10^-3; %kg.m2
 
-% SoloCAD_DataFile;
 SoloCAD_DataFile;
-Airport_DataFile;
+% Airport_DataFile;
 %% Initial Position and Orientation of the Quadcopter
 %  Position
 % xStart = -5;                        % m
 % yStart = -3;                        % m
 % zStart = 0.06;                      % m
 
-uav(1).traj = Best_Position_1;
-uav(2).traj = Best_Position_2;
-uav(3).traj = Best_Position_3;
+% uav(1).traj = Best_Position_1;
+% uav(2).traj = Best_Position_2;
+% uav(3).traj = Best_Position_3;
 
-uav(1).traj(3,5) = uav(1).traj(3,5) + 4;
-uav(1).traj(3,6) = uav(1).traj(3,6) + 8;
-uav(1).traj(3,7:end) = uav(1).traj(3,7:end) + 12;
+% uav(1).traj(3,5) = uav(1).traj(3,5) + 4;
+% uav(1).traj(3,6) = uav(1).traj(3,6) + 8;
+% uav(1).traj(3,7:end) = uav(1).traj(3,7:end) + 12;
+% 
+% uav(2).traj(3,5) = uav(2).traj(3,5) + 4;
+% uav(2).traj(3,6) = uav(2).traj(3,6) + 8;
+% uav(2).traj(3,7:end) = uav(2).traj(3,7:end) + 12;
+% 
+% uav(3).traj(3,5) = uav(3).traj(3,5) + 4;
+% uav(3).traj(3,6) = uav(3).traj(3,6) + 8;
+% uav(3).traj(3,7:end) = uav(3).traj(3,7:end) + 12;
 
-uav(2).traj(3,5) = uav(2).traj(3,5) + 4;
-uav(2).traj(3,6) = uav(2).traj(3,6) + 8;
-uav(2).traj(3,7:end) = uav(2).traj(3,7:end) + 12;
-
-uav(3).traj(3,5) = uav(3).traj(3,5) + 4;
-uav(3).traj(3,6) = uav(3).traj(3,6) + 8;
-uav(3).traj(3,7:end) = uav(3).traj(3,7:end) + 12;
-
-uav(1).start = uav(1).traj(:,1);                        % m
-uav(2).start = uav(2).traj(:,1);                        % m
-uav(3).start = uav(3).traj(:,1);                        % m
-
-uav(1).wps = uav(1).traj(:,2:end);                        % m
-
+% uav(1).start = uav(1).traj(:,1) + [0; 12; 0];                        % m
+% % uav(2).start = uav(2).traj(:,1);                        % m
+% % uav(3).start = uav(3).traj(:,1);                        % m
+% 
+% uav(1).wps = uav(1).traj(:,2:end);                        % m
+% 
 % uav(1).wps = [18.5 20 25 30 40 50 62 72 85;...
-%               42.5 45 45 45 45 45 45 45 45;...
-%               20*ones(1,9)];
+%               42 42.2 42.5 42.8 43.2 43.5 43.8 44.1 44.5;...
+%               25*ones(1,9)];
 
-% uav(1).wps = [18.5 20 25 30 40 50 62 72 85;...
-%               42.5 45 45 45 45 45 45 45 45;...
-%               20*ones(1,9)];
-uav(2).wps = uav(2).traj(:,2:end);                        % m
-uav(3).wps = uav(3).traj(:,2:end);
+% uav(2).wps = uav(2).traj(:,2:end);                        % m
+% uav(3).wps = uav(3).traj(:,2:end);
 
 % yStart = [0 1];                        % m
 % zStart = [0.06 1];                      % m
@@ -102,13 +99,16 @@ xrot = 0;                       % deg
 yrot = 0;                       % deg
 zrot = 0;                       % deg
 
-%% Material Property
-rho_nylon = 1.41;               % g/cm^3
-rho_glass = 2.56;               % g/cm^3
-rho_pla   = 1.25;               % g/cm^3
-rho_cfrp  = 6.32/3;             % g/cm^3
-rho_al    = 2.66;               % g/cm^3
-
+%% Individual UAV
+uav(1).traj = [200 193 186 179 172 165 158 151 144 137 130 123 123;...
+               85   83  81  79  77  75  73  71  69  67  65  63  63;...
+               0 6*ones(1,11) 2];
+% uav(1).traj = [50*ones(1,10);...
+%                50*ones(1,10);...
+%                5 7*ones(1,9)];
+uav(1).start = uav(1).traj(:,1);
+uav(1).wps = uav(1).traj(:,2:end); 
+% uav(1).start(:,1) = [200; 85; 2];
 %% Trajectory Generation
 % Waypoints
 % xWaypt = [0 -1 -2; 1 1 1]';
@@ -124,9 +124,9 @@ rho_al    = 2.66;               % g/cm^3
 V_nom = 2; % m/s
 
 % Time spot for the trajectory design between the waypoints
-uav(1).timeStamp = zeros(length(uav(1).traj),1);
-uav(2).timeStamp = zeros(length(uav(2).traj),1);
-uav(3).timeStamp = zeros(length(uav(3).traj),1);
+% uav(1).timeStamp = zeros(length(uav(1).traj),1);
+% uav(2).timeStamp = zeros(length(uav(2).traj),1);
+% uav(3).timeStamp = zeros(length(uav(3).traj),1);
 
 % for k = 1:3
 %    for i = 1:1:(length(uav(1).traj)-1)
@@ -155,9 +155,9 @@ T_stop = 25;
 % targetX = wayPoints(1,end);
 % targetY = wayPoints(2,end);
 % targetZ = wayPoints(3,end);
-uav(1).target = uav(1).traj(:,end);
-uav(2).target = uav(2).traj(:,end);
-uav(3).target = uav(3).traj(:,end);
+% uav(1).target = uav(1).traj(:,end);
+% uav(2).target = uav(2).traj(:,end);
+% uav(3).target = uav(3).traj(:,end);
 
 %% Quadcopter Position Controller Gains
 KP_position = 0.1; %0.175
@@ -166,7 +166,7 @@ KD_position = 0.85; %0.85
 %% Quadcopter Attitude Controller Gains
 kp_attitude = 1;%2;
 ki_attitude = 0.01;%0.01;
-kd_attitude = 10; %10;
+kd_attitude = 20; %10;
 
 %% Quadcopter Altitude Controller Gains
 KP_altitude = 0.8; %0.8
